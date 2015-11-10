@@ -1,0 +1,65 @@
+\section*{\large 問題１}
+\ 
+配布資料より、各パラメータは以下のようになる。
+\begin{table}[htb]
+ \begin{center}
+  \caption{各仮定値及びJR100のパラメータ}
+  \begin{tabular}{|l|r|} \hline
+   \multicolumn{2}{|c|}{|JR100|} \\ \hline
+   推力比：$sigma$ (=$\frac{V_n}{V_j}$,$V_n=0$)[-] & 0 \\ \hline
+   低圧タービン断熱効率：$\eta_t$ [-] & 0.88 \\ \hline
+   ファン断熱効率：$eta_f[-]$ & 0.852 \\ \hline
+   バイパス効率：$eta$[-] & 0.74976 \\ \hline
+   圧縮機での定圧比熱：$c_{pc} [j/kg K]$ & 1004 \\ \hline
+   タービン及びノズルでの定圧比熱：$c_{pt} [J/kg K]$ & 1155 \\ \hline
+   圧縮機入口全温：$T_t[K]$ & 288.2 \\ \hline
+   タービン出口全温：$T_{t4}[K]$ & 983.2 \\ \hline
+   排気静温：$T_{j}[K]$ & 840 \\ \hline
+   圧縮機比熱比：$\kappa_c [-]$ & 1.4 \\ \hline
+   $\kappa_c/{\kappa_c -1}$ & 3.5 \\ \hline
+  \end{tabular}
+ \end{center}
+\end{table}
+また、最適エネルギー分配率$\lambda_{op}$及び、最適推力比$\tau_{op}$を求める式は、
+\begin{equation}
+ \lambda_{op}=\frac{\mu(\eta^2-\sigma^2)}{\eta(1+\mu \eta)}
+\end{equation}
+\begin{equation}
+ \tau_{op}=\frac{\sqrt{1-\lambda_{op}} -\sigma +(\sqrt{\mu(\mu\sigma^2+\eta\lambda_{op})}-\mu\sigma)}{1-\sigma}
+\end{equation}
+である。これより得た最適エネルギー分配率$\lambda_{op}$及び最適推力比$\tau_{op}$の値を以下に示す。
+\begin{table}[htb]
+ \begin{center}
+  \caption{各バイパス比にエネルギーおける最適エネルギー分配率及び最適推力比}
+  \begin{tabular}{|r|r|r|} \hline
+  バイパス比$\mu$ [-] & 最適エネルギー分配率$\lambda_{op} [-] $ & 最適推力比$\tau_{op}[-]$   \\ \hline
+  0  & 0            &  1            \\ \hline
+  1  & 0.42849305   &  1.322784941  \\ \hline
+  2  & 0.599923185  &  1.580987033  \\ \hline
+  6  & 0.818134202  &  2.344900851  \\ \hline
+  10 & 0.882319714  &  2.915064322  \\ \hline
+  15 & 0.91834335   &  3.499485676  \\ \hline
+  20 & 0.937481244  &  3.999399955  \\ \hline
+  \end{tabular}
+ \end{center}
+\end{table}
+\\
+\begin{figure}[t]
+ \begin{center}
+  \includegraphics[width=10.0cm]{eps/body1_1.eps}
+  \caption{バイパス比との関係}
+ \end{center}
+\end{figure}
+
+%\begin{equation}
+%\alpha M = F
+%\end{equation}
+%\\
+%\begin{figure}[b]
+% \begin{center}
+%  \includegraphics[width=7.0cm]{png/apple.eps}
+%  \caption{Title}
+%  \label{label}
+% \end{center}
+%\end{figure}
+\\
