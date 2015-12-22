@@ -1,10 +1,10 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.5.24)  22 DEC 2015 02:04
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.11.11)  22 DEC 2015 18:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Main.tex
 (./Main.tex
-pLaTeX2e <2006/11/10> (based on LaTeX2e <2015/01/01> patch level 0)
+pLaTeX2e <2006/11/10> (based on LaTeX2e <2015/10/01> patch level 2)
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (/usr/local/texlive/2015/texmf-dist/tex/platex/base/jbook.cls
 Document Class: jbook 2006/06/27 v1.6 Standard pLaTeX class
@@ -184,9 +184,15 @@ File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 Package graphics Info: Driver file: dvipdfmx.def on input line 94.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/dvipdfmx-def/dvipdfmx.def
-File: dvipdfmx.def 2015/03/26 v4.04 LaTeX color/graphics driver for dvipdfmx (T
+File: dvipdfmx.def 2015/11/04 v4.07 LaTeX color/graphics driver for dvipdfmx (T
 eX Live/ChoF)
-))
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)))
 \Gin@req@height=\dimen130
 \Gin@req@width=\dimen131
 )
@@ -231,7 +237,7 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfig@bottom=\skip51
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tools/enumerate.sty
-Package: enumerate 2014/10/28 v3.00 enumerate extensions (DPC)
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks21
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/cite/cite.sty
@@ -309,6 +315,9 @@ File: utxexa.fd 2000/12/15 v3.1
 
 LaTeX Warning: Label `fig:Injector' multiply defined.
 
+
+LaTeX Warning: Label `fig:Injector' multiply defined.
+
 ))
 \openout1 = `Main.aux'.
 
@@ -340,7 +349,12 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <24.88> not available
 [1
 
 
-] (./Main.toc)
+] (./Main.toc
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
+)
 \tf@toc=\write3
 \openout3 = `Main.toc'.
 
@@ -395,11 +409,6 @@ File: ./src/Chapter2/Figure/PMMA.jpg Graphic file (type bmp)
  <./src/Chapter2/Figure/PMMA.jpg>)
 (./src/Chapter2/Section1/Reaction.tex)) (./src/Chapter2/Section2/Section2.tex
 (./src/Chapter2/Section2/PBOutLine.tex
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 8.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 8.
-
 
 LaTeX Warning: Reference `Baffle' on page 2 undefined on input line 8.
 
@@ -457,13 +466,14 @@ File: ./src/Chapter2/Figure/Ignition.png Graphic file (type bmp)
 
 <./src/Chapter2/Figure/Ignition.png>)) (./src/Chapter2/Section3/Section3.tex
 [7] [8]
+Overfull \hbox (59.1162pt too wide) in paragraph at lines 49--59
+ [] 
+ []
 
-LaTeX Warning: Reference `con' on page 9 undefined on input line 17.
-
-
-LaTeX Warning: Reference `eq:vel' on page 9 undefined on input line 17.
-
-)) [9] (./Main.aux (./src/Abstract/Abstract.aux) (./src/Chapter1/Chapter1.aux)
+[9]
+File: ./src/Chapter2/Figure/Injector.png Graphic file (type bmp)
+ <./src/Chapter2/Figure/Injector.png>)) [10] (./Main.aux
+(./src/Abstract/Abstract.aux) (./src/Chapter1/Chapter1.aux)
 (./src/Chapter2/Chapter2.aux))
 
 LaTeX Warning: There were undefined references.
@@ -473,12 +483,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2526 strings out of 493777
- 31763 string characters out of 6151334
- 85527 words of memory out of 5000000
- 5904 multiletter control sequences out of 15000+600000
- 32568 words of font info for 107 fonts, out of 8000000 for 9000
+ 2728 strings out of 493742
+ 35239 string characters out of 6151251
+ 94119 words of memory out of 5000000
+ 6136 multiletter control sequences out of 15000+600000
+ 36066 words of font info for 118 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 27i,10n,24p,381b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,12n,24p,389b,447s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Main.dvi (14 pages, 13524 bytes).
+Output written on Main.dvi (15 pages, 27824 bytes).
