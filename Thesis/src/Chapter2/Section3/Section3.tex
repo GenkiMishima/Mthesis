@@ -1,2 +1,21 @@
-\section{本論文の構成}
-第１章では、本論文の背景と目的について述べた。第２章ではｊｊ
+\section{水流し試験}
+本実験では流量計測にタービン流量計の他にオリフィス差圧とインジェクタ差圧を使用した。
+差圧から流量を計測するために、各差圧の流量係数を確認する必要がある。
+GHe供給圧をパラメータとし、水を30秒以上流し、噴出した水の総量から、水の流量を求めた。水の噴射の様子を図に示す。
+\\
+流量定数はベルヌーイの定理と連続の式から導出できる。
+\begin{eqnarray}
+P_{1} + \frac{1}{2} \rho_{1} u^2_{1} &=& P_{2} + \frac{1}{2} \rho_{2} u^2_{2}  \nonumber \\
+u^2_{2} - u^2_{1} &=& \frac{2(P_{1}-P_{2})}{\rho} 
+\label{eq:vel}
+\end{eqnarray}
+\begin{eqnarray}
+u_{1}A_{1} &=& u_{2}A_{2}  \nonumber \\
+u_{2} &=& u_{1}\frac{A_{1}}{A_{2}}
+\label{eq:con}
+\end{eqnarray}
+\ref{eq:con}を\ref{eq:vel}に代入する。
+%\begin{eqnarray}
+%u_{2}=\frac{1}{\sqrt{1-(\frac{A_2}{A_1})^2}} \sqrt{\frac{2(P_{1}-P_{2})}} \\
+%\end{eqnarray}
+

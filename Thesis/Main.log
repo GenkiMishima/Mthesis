@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.5.24)  21 DEC 2015 21:21
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.5.24)  22 DEC 2015 02:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -307,7 +307,7 @@ File: utxexa.fd 2000/12/15 v3.1
 (./Main.aux (./src/Abstract/Abstract.aux) (./src/Chapter1/Chapter1.aux)
 (./src/Chapter2/Chapter2.aux
 
-LaTeX Warning: Label `fig:LOXLine' multiply defined.
+LaTeX Warning: Label `fig:Injector' multiply defined.
 
 ))
 \openout1 = `Main.aux'.
@@ -340,12 +340,7 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <24.88> not available
 [1
 
 
-] (./Main.toc
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
-)
+] (./Main.toc)
 \tf@toc=\write3
 \openout3 = `Main.toc'.
 
@@ -400,6 +395,11 @@ File: ./src/Chapter2/Figure/PMMA.jpg Graphic file (type bmp)
  <./src/Chapter2/Figure/PMMA.jpg>)
 (./src/Chapter2/Section1/Reaction.tex)) (./src/Chapter2/Section2/Section2.tex
 (./src/Chapter2/Section2/PBOutLine.tex
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 8.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 8.
+
 
 LaTeX Warning: Reference `Baffle' on page 2 undefined on input line 8.
 
@@ -411,11 +411,14 @@ LaTeX Warning: Reference `Baffle' on page 2 undefined on input line 8.
 ]
 File: ./src/Chapter2/Figure/PBImage.png Graphic file (type bmp)
  <./src/Chapter2/Figure/PBImage.png>
-File: ./src/Chapter2/Figure/Injector.png Graphic file (type bmp)
- <./src/Chapter2/Figure/Injector.png>
-File: ./src/Chapter2/Figure/BafflePlate.png Graphic file (type bmp)
+Overfull \hbox (8.79134pt too wide) in paragraph at lines 16--17
+ [][] 
+ []
 
-<./src/Chapter2/Figure/BafflePlate.png>
+File: ./src/Chapter2/Figure/Injector.png Graphic file (type bmp)
+<./src/Chapter2/Figure/Injector.png>
+File: ./src/Chapter2/Figure/BafflePlate.png Graphic file (type bmp)
+ <./src/Chapter2/Figure/BafflePlate.png>
 Overfull \hbox (15.0pt too wide) in paragraph at lines 22--39
 [][] 
  []
@@ -435,13 +438,9 @@ Overfull \hbox (8.79134pt too wide) in paragraph at lines 33--34
  [][] 
  []
 
-[3] [4]) (./src/Chapter2/Section2/Measurement.tex [5]
+[3] [4]) (./src/Chapter2/Section2/Measurement.tex [5] [6]
 
-LaTeX Warning: Reference `' on page 6 undefined on input line 18.
-
-
-LaTeX Warning: Reference `fig:NozzleThermo' on page 6 undefined on input line 1
-8.
+LaTeX Warning: Reference `' on page 7 undefined on input line 18.
 
 File: ./src/Chapter2/Figure/Injector.png Graphic file (type bmp)
 <./src/Chapter2/Figure/Injector.png>
@@ -451,7 +450,20 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 21--38
 [][] 
  []
 
-))) [6] (./Main.aux (./src/Abstract/Abstract.aux) (./src/Chapter1/Chapter1.aux)
+) (./src/Chapter2/Section2/Controller.tex
+File: ./src/Chapter2/Figure/Nichrome.png Graphic file (type bmp)
+ <./src/Chapter2/Figure/Nichrome.png>
+File: ./src/Chapter2/Figure/Ignition.png Graphic file (type bmp)
+
+<./src/Chapter2/Figure/Ignition.png>)) (./src/Chapter2/Section3/Section3.tex
+[7] [8]
+
+LaTeX Warning: Reference `con' on page 9 undefined on input line 17.
+
+
+LaTeX Warning: Reference `eq:vel' on page 9 undefined on input line 17.
+
+)) [9] (./Main.aux (./src/Abstract/Abstract.aux) (./src/Chapter1/Chapter1.aux)
 (./src/Chapter2/Chapter2.aux))
 
 LaTeX Warning: There were undefined references.
@@ -461,12 +473,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2512 strings out of 493777
- 31464 string characters out of 6151334
- 85839 words of memory out of 5000000
- 5898 multiletter control sequences out of 15000+600000
+ 2526 strings out of 493777
+ 31763 string characters out of 6151334
+ 85527 words of memory out of 5000000
+ 5904 multiletter control sequences out of 15000+600000
  32568 words of font info for 107 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  27i,10n,24p,381b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Main.dvi (11 pages, 15856 bytes).
+Output written on Main.dvi (14 pages, 13524 bytes).
