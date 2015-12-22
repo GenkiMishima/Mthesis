@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.11.11)  22 DEC 2015 18:02
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.11.11)  22 DEC 2015 21:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -318,7 +318,10 @@ LaTeX Warning: Label `fig:Injector' multiply defined.
 
 LaTeX Warning: Label `fig:Injector' multiply defined.
 
-))
+
+LaTeX Warning: Label `tab:LOX' multiply defined.
+
+) (./src/Chapter3/Chapter3.aux))
 \openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 32.
@@ -340,13 +343,13 @@ LaTeX Font Info:    ... okay on input line 32.
  (I search kanjifont definition file: . . )
 \openout2 = `src/Abstract/Abstract.aux'.
 
- (./src/Abstract/Abstract.tex
+
+(./src/Abstract/Abstract.tex
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <24.88> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <24.88> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
-)
-[1
+) [1
 
 
 ] (./Main.toc
@@ -376,8 +379,7 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 ]
 \openout2 = `src/Chapter1/Chapter1.aux'.
 
-
-(./src/Chapter1/Chapter1.tex
+ (./src/Chapter1/Chapter1.tex
 第 1 章
 (./src/Chapter1/Section1/Section1.tex
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
@@ -455,7 +457,7 @@ File: ./src/Chapter2/Figure/Injector.png Graphic file (type bmp)
 <./src/Chapter2/Figure/Injector.png>
 File: ./src/Chapter2/Figure/NozzleThermo.jpg Graphic file (type bmp)
  <./src/Chapter2/Figure/NozzleThermo.jpg>
-Overfull \hbox (15.0pt too wide) in paragraph at lines 21--38
+Overfull \hbox (15.0pt too wide) in paragraph at lines 23--40
 [][] 
  []
 
@@ -472,9 +474,26 @@ Overfull \hbox (59.1162pt too wide) in paragraph at lines 49--59
 
 [9]
 File: ./src/Chapter2/Figure/Injector.png Graphic file (type bmp)
- <./src/Chapter2/Figure/Injector.png>)) [10] (./Main.aux
+ <./src/Chapter2/Figure/Injector.png>) (./src/Chapter2/Section4/Section4.tex
+Overfull \hbox (56.51164pt too wide) in paragraph at lines 9--14
+ [] 
+ []
+
+) (./src/Chapter2/Section5/Section5.tex [10])) [11]
+\openout2 = `src/Chapter3/Chapter3.aux'.
+
+
+(./src/Chapter3/Chapter3.tex
+第 3 章
+(./src/Chapter3/Section1/Section1.tex (./src/Chapter3/Section1/Purpose.tex)
+(./src/Chapter3/Section1/Condition.tex))) [12
+
+
+
+
+] (./Main.aux
 (./src/Abstract/Abstract.aux) (./src/Chapter1/Chapter1.aux)
-(./src/Chapter2/Chapter2.aux))
+(./src/Chapter2/Chapter2.aux) (./src/Chapter3/Chapter3.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -483,12 +502,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2728 strings out of 493742
- 35239 string characters out of 6151251
- 94119 words of memory out of 5000000
- 6136 multiletter control sequences out of 15000+600000
- 36066 words of font info for 118 fonts, out of 8000000 for 9000
+ 2768 strings out of 493742
+ 36137 string characters out of 6151251
+ 94476 words of memory out of 5000000
+ 6151 multiletter control sequences out of 15000+600000
+ 39839 words of font info for 130 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  27i,12n,24p,389b,447s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Main.dvi (15 pages, 27824 bytes).
+Output written on Main.dvi (17 pages, 33900 bytes).
