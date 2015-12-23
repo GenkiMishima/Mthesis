@@ -1,10 +1,10 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.11.11)  22 DEC 2015 21:41
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.5.24)  23 DEC 2015 14:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Main.tex
 (./Main.tex
-pLaTeX2e <2006/11/10> (based on LaTeX2e <2015/10/01> patch level 2)
+pLaTeX2e <2006/11/10> (based on LaTeX2e <2015/01/01> patch level 0)
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (/usr/local/texlive/2015/texmf-dist/tex/platex/base/jbook.cls
 Document Class: jbook 2006/06/27 v1.6 Standard pLaTeX class
@@ -184,15 +184,9 @@ File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 Package graphics Info: Driver file: dvipdfmx.def on input line 94.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/dvipdfmx-def/dvipdfmx.def
-File: dvipdfmx.def 2015/11/04 v4.07 LaTeX color/graphics driver for dvipdfmx (T
+File: dvipdfmx.def 2015/03/26 v4.04 LaTeX color/graphics driver for dvipdfmx (T
 eX Live/ChoF)
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)))
+))
 \Gin@req@height=\dimen130
 \Gin@req@width=\dimen131
 )
@@ -237,7 +231,7 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfig@bottom=\skip51
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tools/enumerate.sty
-Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+Package: enumerate 2014/10/28 v3.00 enumerate extensions (DPC)
 \@enLab=\toks21
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/cite/cite.sty
@@ -321,7 +315,11 @@ LaTeX Warning: Label `fig:Injector' multiply defined.
 
 LaTeX Warning: Label `tab:LOX' multiply defined.
 
-) (./src/Chapter3/Chapter3.aux))
+) (./src/Chapter3/Chapter3.aux
+
+LaTeX Warning: Label `tab:TestCondition' multiply defined.
+
+))
 \openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 32.
@@ -341,18 +339,11 @@ LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
  (I search kanjifont definition file: . . )
-\openout2 = `src/Abstract/Abstract.aux'.
-
-
-(./src/Abstract/Abstract.tex
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <24.88> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 36.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <24.88> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
-) [1
-
-
-] (./Main.toc
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 36.
+ (./Main.toc
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
@@ -361,20 +352,20 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 \tf@toc=\write3
 \openout3 = `Main.toc'.
 
- [2
-
+ [1
 
 ] (./Main.lot)
 \tf@lot=\write4
 \openout4 = `Main.lot'.
 
- [3
+
+[2
 
 ] (./Main.lof)
 \tf@lof=\write5
 \openout5 = `Main.lof'.
 
- [4
+ [3
 
 ]
 \openout2 = `src/Chapter1/Chapter1.aux'.
@@ -474,26 +465,43 @@ Overfull \hbox (59.1162pt too wide) in paragraph at lines 49--59
 
 [9]
 File: ./src/Chapter2/Figure/Injector.png Graphic file (type bmp)
- <./src/Chapter2/Figure/Injector.png>) (./src/Chapter2/Section4/Section4.tex
-Overfull \hbox (56.51164pt too wide) in paragraph at lines 9--14
+ <./src/Chapter2/Figure/Injector.png>) (./src/Chapter2/Section4/Section4.tex [1
+0]
+Overfull \hbox (4.30675pt too wide) in paragraph at lines 13--30
  [] 
  []
 
-) (./src/Chapter2/Section5/Section5.tex [10])) [11]
+) (./src/Chapter2/Section5/Section5.tex)) [11]
 \openout2 = `src/Chapter3/Chapter3.aux'.
 
-
-(./src/Chapter3/Chapter3.tex
+ (./src/Chapter3/Chapter3.tex
 第 3 章
-(./src/Chapter3/Section1/Section1.tex (./src/Chapter3/Section1/Purpose.tex)
-(./src/Chapter3/Section1/Condition.tex))) [12
+(./src/Chapter3/Section1/Section1.tex (./src/Chapter3/Section1/Purpose.tex
+
+LaTeX Warning: Reference `TestCondition' on page 12 undefined on input line 5.
+
+) (./src/Chapter3/Section1/Result.tex [12
 
 
 
 
-] (./Main.aux
-(./src/Abstract/Abstract.aux) (./src/Chapter1/Chapter1.aux)
-(./src/Chapter2/Chapter2.aux) (./src/Chapter3/Chapter3.aux))
+])
+(./src/Chapter3/Section1/Conclusion.tex
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 4.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/omstxr.fd
+File: omstxr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <12> not available
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 4.
+))
+(./src/Chapter3/Section2/Section2.tex (./src/Chapter3/Section2/Purpose.tex
+
+LaTeX Warning: Reference `TestCondition' on page 13 undefined on input line 9.
+
+) (./src/Chapter3/Section2/Result.tex [13] [14]))) [15] (./Main.aux
+(./src/Chapter1/Chapter1.aux) (./src/Chapter2/Chapter2.aux)
+(./src/Chapter3/Chapter3.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -502,12 +510,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2768 strings out of 493742
- 36137 string characters out of 6151251
- 94476 words of memory out of 5000000
- 6151 multiletter control sequences out of 15000+600000
+ 2609 strings out of 493777
+ 33435 string characters out of 6151334
+ 92293 words of memory out of 5000000
+ 5952 multiletter control sequences out of 15000+600000
  39839 words of font info for 130 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 27i,12n,24p,389b,447s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,12n,24p,389b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Main.dvi (17 pages, 33900 bytes).
+Output written on Main.dvi (19 pages, 50672 bytes).
