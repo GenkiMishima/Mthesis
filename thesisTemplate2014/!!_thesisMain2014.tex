@@ -1,0 +1,62 @@
+% 2014年度版水書研究室卒論・修論LaTeXテンプレート
+% 作成：東海大学・工学部・航空宇宙学科・水書研究室
+% 改訂　2014.07.21
+% 改訂　2013.06.08
+% 
+\documentclass[dvipdfmx,a4paper,12pt,oneside,openany]{jsbook}
+\usepackage{mzkklab}
+\makeindex
+%
+\newcommand{\diff}{\mathrm{d}}  %微分記号
+\newcommand{\divergence}{\mathrm{div}\,}  %ダイバージェンス
+\newcommand{\grad}{\mathrm{grad}\,}  %グラディエント
+\newcommand{\rot}{\mathrm{rot}\,}  %ローテーション
+%
+%%%%% 以下に自分の情報を書き込む %%%%%
+\title{2014年度修士（卒業）研究論文\\題目：○○○○○○○○○○○○} % 各自の題目を記入
+\author{学生証番号・氏名}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\date{\today}
+\begin{document} % 文書本体の開始
+%
+\maketitle
+%
+\frontmatter
+%
+\addcontentsline{toc}{chapter}{要約}% 目次に「要約」を追加
+\include{00_abstract} % 要約ファイル
+\tableofcontents   % 目次
+\listoffigures
+\listoftables
+%
+\mainmatter
+%
+\include{01_ch01}% 第1章：緒論
+%
+\include{02_ch02}% 第2章：基礎理論
+%
+\include{03_ch03}% 第3章：実験・解析方法
+%
+\include{04_ch04}% 第4章：実験・解析結果および考察
+%
+\include{05_ch05}% 第5章：まとめ
+%%
+\bibliographystyle{jplain}
+\bibliography{06_biblist}
+
+%
+\addcontentsline{toc}{chapter}{謝辞}% 目次に「謝辞」を追加
+\include{07_thanks}% 謝辞
+%
+\appendix
+%
+\include{aa_kikaku}% 研究企画書
+%
+\include{ab_appendixA}% 付録A
+%
+\include{ac_appendixB}% 付録B
+%
+\newpage
+\printindex
+%
+\end{document} % 文書終了
