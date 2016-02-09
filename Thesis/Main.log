@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.11.11)  9 FEB 2016 11:42
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.11.11)  9 FEB 2016 15:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -99,6 +99,16 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
 (/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/txfonts.sty
 Package: txfonts 2008/01/22 v3.2.1
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
@@ -108,7 +118,7 @@ LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> OT1/txr/m/n on input line 21.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/txr/m/n --> OT1/txr/bx/n on input line 22.
-\symitalic=\mathgroup5
+\symitalic=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
 (Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 26.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
@@ -144,9 +154,10 @@ LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
 (Font)                  OML/cmm/b/it --> OML/txmi/m/it on input line 58.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
 (Font)                  OML/txmi/m/it --> OML/txmi/bx/it on input line 59.
-\symlettersA=\mathgroup6
+\symlettersA=\mathgroup8
 LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
 (Font)                  U/txmia/m/it --> U/txmia/bx/it on input line 67.
+LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 70.
 LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 77.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/cmsy/m/n --> OMS/txsy/m/n on input line 77.
@@ -154,10 +165,18 @@ LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/cmsy/b/n --> OMS/txsy/m/n on input line 77.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/txsy/m/n --> OMS/txsy/bx/n on input line 78.
-\symAMSa=\mathgroup7
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
+(Font)                  U/msa/m/n --> U/txsya/m/n on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/msa/m/n --> U/txsya/m/n on input line 93.
 LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
 (Font)                  U/txsya/m/n --> U/txsya/bx/n on input line 94.
-\symAMSb=\mathgroup8
+LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
+(Font)                  U/msb/m/n --> U/txsyb/m/n on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/msb/m/n --> U/txsyb/m/n on input line 102.
 LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
 (Font)                  U/txsyb/m/n --> U/txsyb/bx/n on input line 103.
 \symsymbolsC=\mathgroup9
@@ -301,11 +320,6 @@ File: omxtxex.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 5.76599pt on input line 99.
-LaTeX Font Info:    Try loading font information for U+txmia on input line 99.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/utxmia.fd
-File: utxmia.fd 2000/12/15 v3.1
-)
 LaTeX Font Info:    Try loading font information for U+txsya on input line 99.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/utxsya.fd
@@ -315,6 +329,11 @@ LaTeX Font Info:    Try loading font information for U+txsyb on input line 99.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txmia on input line 99.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/utxmia.fd
+File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Try loading font information for U+txsyc on input line 99.
 
@@ -328,16 +347,12 @@ File: utxexa.fd 2000/12/15 v3.1
 ) [1
 
 
-] [2
-
 ]
+
+LaTeX Warning: Unused global option(s):
+    [oneide].
+
 (./Main.aux (./src/Chapter1/Chapter1.aux) (./src/Chapter2/Chapter2.aux
-
-LaTeX Warning: Label `fig:Injector' multiply defined.
-
-
-LaTeX Warning: Label `fig:Injector' multiply defined.
-
 
 LaTeX Warning: Label `tab:LOX' multiply defined.
 
@@ -407,19 +422,20 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 
 [1
 
-] [2
 
 ] (./Main.lot)
 \tf@lot=\write4
 \openout4 = `Main.lot'.
 
- [3] [4
+ [2
 
 ] (./Main.lof)
 \tf@lof=\write5
 \openout5 = `Main.lof'.
 
- [5] [6
+ [3
+
+] [4
 
 ]
 \openout2 = `src/Chapter1/Chapter1.aux'.
@@ -457,11 +473,7 @@ LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 ]
 \openout2 = `src/Chapter2/Chapter2.aux'.
 
- (./src/Chapter2/Chapter2.tex [2
-
-
-
-]
+ (./src/Chapter2/Chapter2.tex
 第2章
 (./src/Chapter2/Section1.tex (./src/Chapter2/S1LOX.tex
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
@@ -478,12 +490,25 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (./src/Chapter2/S1PMMA.tex
 File: ./src/Chapter2/Figure/PMMA.jpg Graphic file (type bmp)
  <./src/Chapter2/Figure/PMMA.jpg>)
-(./src/Chapter2/S1Reaction.tex)) (./src/Chapter2/Section2/Section2.tex
-(./src/Chapter2/Section2/PBOutLine.tex
+(./src/Chapter2/S1Reaction.tex)) (./src/Chapter2/Section2.tex
+(./src/Chapter2/S2PBOutLine.tex
 
-LaTeX Warning: Reference `Baffle' on page 3 undefined on input line 8.
+LaTeX Warning: Reference `fig:PBOut' on page 2 undefined on input line 3.
 
-[3] [4]
+
+LaTeX Warning: Reference `Baffle' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Reference `fig:Chamber1' on page 2 undefined on input line 10.
+
+
+LaTeX Warning: Reference `fig:Chamber2' on page 2 undefined on input line 10.
+
+[2
+
+
+
+] [3]
 File: ./src/Chapter2/Figure/PBImage.png Graphic file (type bmp)
  <./src/Chapter2/Figure/PBImage.png>
 Overfull \hbox (56.91646pt too wide) in paragraph at lines 16--17
@@ -524,16 +549,23 @@ Overfull \hbox (14.5pt too wide) in paragraph at lines 42--59
 [][] 
  []
 
-) (./src/Chapter2/Section2/PipeLine.tex
+) (./src/Chapter2/S2PipeLine.tex
+
+LaTeX Warning: Reference `fig:LOXLine' on page 4 undefined on input line 3.
+
 File: ./src/Chapter2/Figure/LOXLine.png Graphic file (type bmp)
- <./src/Chapter2/Figure/LOXLine.png>
+<./src/Chapter2/Figure/LOXLine.png>
 Overfull \hbox (56.91646pt too wide) in paragraph at lines 33--34
  [][] 
  []
 
-[5]) (./src/Chapter2/Section2/Measurement.tex [6]
+[4]) (./src/Chapter2/S2Measurement.tex [5]
 
-LaTeX Warning: Reference `' on page 7 undefined on input line 18.
+LaTeX Warning: Reference `' on page 6 undefined on input line 18.
+
+
+LaTeX Warning: Reference `fig:NozzleThermo' on page 6 undefined on input line 1
+8.
 
 File: ./src/Chapter2/Figure/Injector.png Graphic file (type bmp)
 <./src/Chapter2/Figure/Injector.png>
@@ -552,13 +584,18 @@ Overfull \hbox (14.5pt too wide) in paragraph at lines 23--40
 [][] 
  []
 
-) (./src/Chapter2/Section2/Controller.tex
-File: ./src/Chapter2/Figure/Nichrome.png Graphic file (type bmp)
- <./src/Chapter2/Figure/Nichrome.png>
-File: ./src/Chapter2/Figure/Ignition.png Graphic file (type bmp)
+) (./src/Chapter2/S2Controller.tex
 
-<./src/Chapter2/Figure/Ignition.png>)) (./src/Chapter2/Section3/Section3.tex
-[7] [8] [9]
+LaTeX Warning: Reference `fig:Nichrome' on page 6 undefined on input line 7.
+
+
+LaTeX Warning: Reference `fig:Ignition' on page 6 undefined on input line 7.
+
+File: ./src/Chapter2/Figure/Nichrome.png Graphic file (type bmp)
+<./src/Chapter2/Figure/Nichrome.png>
+File: ./src/Chapter2/Figure/Ignition.png Graphic file (type bmp)
+ <./src/Chapter2/Figure/Ignition.png>))
+(./src/Chapter2/Section3/Section3.tex [6] [7] [8]
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 6.72699pt on input line 47.
 
@@ -568,21 +605,20 @@ Overfull \hbox (51.47629pt too wide) in paragraph at lines 49--59
 
 File: ./src/Chapter2/Figure/Injector.png Graphic file (type bmp)
 <./src/Chapter2/Figure/Injector.png>) (./src/Chapter2/Section4/Section4.tex)
-(./src/Chapter2/Section5/Section5.tex)) [10] [11]
+(./src/Chapter2/Section5/Section5.tex)) [9] [10]
 \openout2 = `src/Chapter3/Chapter3.aux'.
 
  (./src/Chapter3/Chapter3.tex
-[12
-
-
-
-]
 第3章
 (./src/Chapter3/Section1/Section1.tex (./src/Chapter3/Section1/Purpose.tex
 
-LaTeX Warning: Reference `TestCondition' on page 13 undefined on input line 5.
+LaTeX Warning: Reference `TestCondition' on page 11 undefined on input line 5.
 
-) (./src/Chapter3/Section1/Result.tex [13])
+) (./src/Chapter3/Section1/Result.tex [11
+
+
+
+])
 (./src/Chapter3/Section1/Conclusion.tex
 LaTeX Font Info:    Try loading font information for OMS+txr on input line 4.
 
@@ -594,9 +630,9 @@ LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
 ))
 (./src/Chapter3/Section2/Section2.tex (./src/Chapter3/Section2/Purpose.tex
 
-LaTeX Warning: Reference `TestCondition' on page 14 undefined on input line 9.
+LaTeX Warning: Reference `TestCondition' on page 12 undefined on input line 9.
 
-) (./src/Chapter3/Section2/Result.tex [14] [15]))) [16] (./Main.aux
+) (./src/Chapter3/Section2/Result.tex [12] [13]))) [14] (./Main.aux
 (./src/Chapter1/Chapter1.aux) (./src/Chapter2/Chapter2.aux)
 (./src/Chapter3/Chapter3.aux))
 
@@ -607,12 +643,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2944 strings out of 493742
- 38120 string characters out of 6151251
- 101925 words of memory out of 5000000
- 6316 multiletter control sequences out of 15000+600000
+ 2980 strings out of 493742
+ 38718 string characters out of 6151251
+ 102295 words of memory out of 5000000
+ 6346 multiletter control sequences out of 15000+600000
  41414 words of font info for 143 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 29i,12n,24p,389b,467s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,12n,26p,389b,467s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Main.dvi (24 pages, 48476 bytes).
+Output written on Main.dvi (19 pages, 44108 bytes).
