@@ -1,4 +1,4 @@
-\documentclass[12pt,oneside,openany,a4paper]{jsbook}
+\documentclass[12pt,a4paper]{jsreport}
 %
 \usepackage{amsmath}%,amssymb}
 \usepackage{txfonts}
@@ -8,14 +8,13 @@
 \usepackage{enumerate}
 \usepackage{cite}
 \usepackage{url}
-\usepackage{mzkklab}
+%\usepackage{mzkklab}
 %\usepackage{wrapfig}
 %\usepackage{ascmac}
 %\usepackage{makeidx}
 %\usepackage{bm}
 %\usepackage{subfigure}
 %\usepackage{verbatim}
-\makeindex
 %
 %\setlength{\textwidth}{\fullwidth}
 %\addtolength{\textheight}{\topskip}
@@ -25,10 +24,45 @@
 %\newcommand{\grad}{\mathrm{grad}\,}  %グラディエント
 %\newcommand{\rot}{\mathrm{rot}\,}  %ローテーション
 
+\makeatletter
+
+\def\@thesiis{修士論文}
+\def\id#1{\def\@id{#1}}
+\def\department#1{\def\@department{#1}}
+
+\def\@thesis{修 士 論 文}
+\def\id#1{\def\@id{#1}}
+\def\department#1{\def\@department{#1}}
+
+\def\@maketitle{
+\begin{center}
+{\huge \@thesis \par} %修士論文と記載される部分
+\vspace{10mm}
+{\LARGE\bf \@title \par}% 論文のタイトル部分
+\vspace{10mm}
+{\Large \@date\par}	% 提出年月日部分
+\vspace{20mm}
+{\Large \@department \par}	% 所属部分
+{\Large 学籍番号　\@id \par}	% 学籍番号部分
+\vspace{10mm}
+{\large \@author}% 氏名 
+\end{center}
+\par\vskip 1.5em
+}
+
 %Title
-\title{東海大学大学院 2016年 修士論文 \\ ハイブリッドロケット液体酸素気化に関する研究}
-\author{指導教員：\\ \\ \\東海大学大学院工学研究科\\航空宇宙学専攻\\ \\ \\学生番号：4bmjm020 三島源生}
-\date{}
+\title{境界層燃焼型\\液体酸素気化装置に関する研究}
+\date{\today}
+\department{東海大学大学院工学研究科\\航空宇宙学専攻}
+\id{4BMJM020}
+\author{三島源生}
+
+
+%********************************
+%\title{ハイブリッドロケット液体酸素気化に関する研究}
+%\author{東海大学大学院工学研究科航空宇宙学専攻\\4bmjm020 三島源生}
+%\date{}
+%********************************
 \maketitle
 \frontmatter
 \begin{document}
