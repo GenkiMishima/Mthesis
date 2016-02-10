@@ -1,10 +1,10 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.11.11)  9 FEB 2016 15:00
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.5.24)  10 FEB 2016 18:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Main.tex
 (./Main.tex
-pLaTeX2e <2006/11/10> (based on LaTeX2e <2015/10/01> patch level 2)
+pLaTeX2e <2006/11/10> (based on LaTeX2e <2015/01/01> patch level 0)
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (/usr/local/texlive/2015/texmf-dist/tex/platex/jsclasses/jsbook.cls
 Document Class: jsbook 2014/02/07 okumura
@@ -213,15 +213,9 @@ File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 Package graphics Info: Driver file: dvipdfmx.def on input line 94.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/dvipdfmx-def/dvipdfmx.def
-File: dvipdfmx.def 2015/11/04 v4.07 LaTeX color/graphics driver for dvipdfmx (T
+File: dvipdfmx.def 2015/03/26 v4.04 LaTeX color/graphics driver for dvipdfmx (T
 eX Live/ChoF)
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)))
+))
 \Gin@req@height=\dimen131
 \Gin@req@width=\dimen132
 )
@@ -266,7 +260,7 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfig@bottom=\skip51
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tools/enumerate.sty
-Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+Package: enumerate 2014/10/28 v3.00 enumerate extensions (DPC)
 \@enLab=\toks21
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/cite/cite.sty
@@ -354,13 +348,19 @@ LaTeX Warning: Unused global option(s):
 
 (./Main.aux (./src/Chapter1/Chapter1.aux) (./src/Chapter2/Chapter2.aux
 
+LaTeX Warning: Label `fig:Injector' multiply defined.
+
+
+LaTeX Warning: Label `fig:Injector' multiply defined.
+
+
 LaTeX Warning: Label `tab:LOX' multiply defined.
 
 ) (./src/Chapter3/Chapter3.aux
 
 LaTeX Warning: Label `tab:TestCondition' multiply defined.
 
-))
+) (./src/biblist.aux))
 \openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 101.
@@ -452,7 +452,7 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 19.9311pt on input line 1.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 19.70294pt on input line 1.
-(./src/Chapter1/Section1/Section1.tex
+(./src/Chapter1/Section1.tex
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 1.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
@@ -463,17 +463,22 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 1.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 13.67995pt on input line 1.
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 14.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/.tex File ignored)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/.tex File ignored))
-(./src/Chapter1/Section2/Section2.tex) (./src/Chapter1/Section3/Section3.tex))
-[1
+(/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/omstxr.fd
+File: omstxr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 14.
+)
+(./src/Chapter1/Section2.tex [1
 
 
-]
+]) (./src/Chapter1/Section3.tex)) [2]
 \openout2 = `src/Chapter2/Chapter2.aux'.
 
- (./src/Chapter2/Chapter2.tex
+
+(./src/Chapter2/Chapter2.tex
 第2章
 (./src/Chapter2/Section1.tex (./src/Chapter2/S1LOX.tex
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
@@ -493,22 +498,13 @@ File: ./src/Chapter2/Figure/PMMA.jpg Graphic file (type bmp)
 (./src/Chapter2/S1Reaction.tex)) (./src/Chapter2/Section2.tex
 (./src/Chapter2/S2PBOutLine.tex
 
-LaTeX Warning: Reference `fig:PBOut' on page 2 undefined on input line 3.
+LaTeX Warning: Reference `Baffle' on page 3 undefined on input line 8.
 
-
-LaTeX Warning: Reference `Baffle' on page 2 undefined on input line 8.
-
-
-LaTeX Warning: Reference `fig:Chamber1' on page 2 undefined on input line 10.
-
-
-LaTeX Warning: Reference `fig:Chamber2' on page 2 undefined on input line 10.
-
-[2
+[3
 
 
 
-] [3]
+] [4]
 File: ./src/Chapter2/Figure/PBImage.png Graphic file (type bmp)
  <./src/Chapter2/Figure/PBImage.png>
 Overfull \hbox (56.91646pt too wide) in paragraph at lines 16--17
@@ -550,22 +546,15 @@ Overfull \hbox (14.5pt too wide) in paragraph at lines 42--59
  []
 
 ) (./src/Chapter2/S2PipeLine.tex
-
-LaTeX Warning: Reference `fig:LOXLine' on page 4 undefined on input line 3.
-
 File: ./src/Chapter2/Figure/LOXLine.png Graphic file (type bmp)
-<./src/Chapter2/Figure/LOXLine.png>
+ <./src/Chapter2/Figure/LOXLine.png>
 Overfull \hbox (56.91646pt too wide) in paragraph at lines 33--34
  [][] 
  []
 
-[4]) (./src/Chapter2/S2Measurement.tex [5]
+[5]) (./src/Chapter2/S2Measurement.tex [6]
 
-LaTeX Warning: Reference `' on page 6 undefined on input line 18.
-
-
-LaTeX Warning: Reference `fig:NozzleThermo' on page 6 undefined on input line 1
-8.
+LaTeX Warning: Reference `' on page 7 undefined on input line 18.
 
 File: ./src/Chapter2/Figure/Injector.png Graphic file (type bmp)
 <./src/Chapter2/Figure/Injector.png>
@@ -585,17 +574,12 @@ Overfull \hbox (14.5pt too wide) in paragraph at lines 23--40
  []
 
 ) (./src/Chapter2/S2Controller.tex
-
-LaTeX Warning: Reference `fig:Nichrome' on page 6 undefined on input line 7.
-
-
-LaTeX Warning: Reference `fig:Ignition' on page 6 undefined on input line 7.
-
 File: ./src/Chapter2/Figure/Nichrome.png Graphic file (type bmp)
-<./src/Chapter2/Figure/Nichrome.png>
+ <./src/Chapter2/Figure/Nichrome.png>
 File: ./src/Chapter2/Figure/Ignition.png Graphic file (type bmp)
- <./src/Chapter2/Figure/Ignition.png>))
-(./src/Chapter2/Section3/Section3.tex [6] [7] [8]
+
+<./src/Chapter2/Figure/Ignition.png>)) (./src/Chapter2/Section3.tex [7]
+[8] [9]
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 6.72699pt on input line 47.
 
@@ -604,37 +588,36 @@ Overfull \hbox (51.47629pt too wide) in paragraph at lines 49--59
  []
 
 File: ./src/Chapter2/Figure/Injector.png Graphic file (type bmp)
-<./src/Chapter2/Figure/Injector.png>) (./src/Chapter2/Section4/Section4.tex)
-(./src/Chapter2/Section5/Section5.tex)) [9] [10]
+<./src/Chapter2/Figure/Injector.png>) (./src/Chapter2/Section4.tex)) [10]
+[11]
 \openout2 = `src/Chapter3/Chapter3.aux'.
 
  (./src/Chapter3/Chapter3.tex
 第3章
 (./src/Chapter3/Section1/Section1.tex (./src/Chapter3/Section1/Purpose.tex
 
-LaTeX Warning: Reference `TestCondition' on page 11 undefined on input line 5.
+LaTeX Warning: Reference `TestCondition' on page 12 undefined on input line 5.
 
-) (./src/Chapter3/Section1/Result.tex [11
+) (./src/Chapter3/Section1/Result.tex [12
 
 
 
 ])
-(./src/Chapter3/Section1/Conclusion.tex
-LaTeX Font Info:    Try loading font information for OMS+txr on input line 4.
+(./src/Chapter3/Section1/Conclusion.tex)) (./src/Chapter3/Section2/Section2.tex
+(./src/Chapter3/Section2/Purpose.tex
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/omstxr.fd
-File: omstxr.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 4.
-))
-(./src/Chapter3/Section2/Section2.tex (./src/Chapter3/Section2/Purpose.tex
+LaTeX Warning: Reference `TestCondition' on page 13 undefined on input line 9.
 
-LaTeX Warning: Reference `TestCondition' on page 12 undefined on input line 9.
+) (./src/Chapter3/Section2/Result.tex [13] [14]))) [15]
+\openout2 = `src/biblist.aux'.
 
-) (./src/Chapter3/Section2/Result.tex [12] [13]))) [14] (./Main.aux
-(./src/Chapter1/Chapter1.aux) (./src/Chapter2/Chapter2.aux)
-(./src/Chapter3/Chapter3.aux))
+ (./src/biblist.tex)
+[16
+
+
+
+] (./Main.aux (./src/Chapter1/Chapter1.aux) (./src/Chapter2/Chapter2.aux)
+(./src/Chapter3/Chapter3.aux) (./src/biblist.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -643,12 +626,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2980 strings out of 493742
- 38718 string characters out of 6151251
- 102295 words of memory out of 5000000
- 6346 multiletter control sequences out of 15000+600000
+ 2794 strings out of 493777
+ 35093 string characters out of 6151334
+ 99540 words of memory out of 5000000
+ 6133 multiletter control sequences out of 15000+600000
  41414 words of font info for 143 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 29i,12n,26p,389b,467s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,12n,26p,380b,467s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Main.dvi (19 pages, 44108 bytes).
+Output written on Main.dvi (21 pages, 50952 bytes).
