@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.5.24)  10 FEB 2016 21:55
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.5.24)  10 FEB 2016 22:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -470,19 +470,21 @@ File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
 (Font)              Font shape `OMS/txsy/m/n' tried instead on input line 14.
-)
-(./src/Chapter1/Section2.tex [1
+ [1
 
 
-]) (./src/Chapter1/Section3.tex)
+])
+(./src/Chapter1/Section2.tex) (./src/Chapter1/Section3.tex)
 File: ./src/Chapter1/graph/eps/SLN1.eps Graphic file (type eps)
 
 <./src/Chapter1/graph/eps/SLN1.eps>
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 10.
+(Font)              scaled to size 8.64899pt on input line 11.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 10.
-) [2]
+(Font)              scaled to size 8.64899pt on input line 11.
+File: ./src/Chapter1/graph/eps/Pro.eps Graphic file (type eps)
+ <./src/Chapter1/graph/eps/Pro.eps>)
+[2] [3]
 \openout2 = `src/Chapter2/Chapter2.aux'.
 
  (./src/Chapter2/Chapter2.tex
@@ -501,13 +503,13 @@ File: ./src/Chapter2/Figure/PMMA.jpg Graphic file (type bmp)
 (./src/Chapter2/S1Reaction.tex)) (./src/Chapter2/Section2.tex
 (./src/Chapter2/S2PBOutLine.tex
 
-LaTeX Warning: Reference `Baffle' on page 3 undefined on input line 8.
+LaTeX Warning: Reference `Baffle' on page 4 undefined on input line 8.
 
-[3
+[4
 
 
 
-] [4]
+] [5]
 File: ./src/Chapter2/Figure/PBImage.png Graphic file (type bmp)
  <./src/Chapter2/Figure/PBImage.png>
 Overfull \hbox (56.91646pt too wide) in paragraph at lines 16--17
@@ -555,9 +557,9 @@ Overfull \hbox (56.91646pt too wide) in paragraph at lines 33--34
  [][] 
  []
 
-[5]) (./src/Chapter2/S2Measurement.tex [6]
+[6]) (./src/Chapter2/S2Measurement.tex [7]
 
-LaTeX Warning: Reference `' on page 7 undefined on input line 18.
+LaTeX Warning: Reference `' on page 8 undefined on input line 18.
 
 File: ./src/Chapter2/Figure/Injector.png Graphic file (type bmp)
 <./src/Chapter2/Figure/Injector.png>
@@ -581,8 +583,8 @@ File: ./src/Chapter2/Figure/Nichrome.png Graphic file (type bmp)
  <./src/Chapter2/Figure/Nichrome.png>
 File: ./src/Chapter2/Figure/Ignition.png Graphic file (type bmp)
 
-<./src/Chapter2/Figure/Ignition.png>)) (./src/Chapter2/Section3.tex [7]
-[8] [9]
+<./src/Chapter2/Figure/Ignition.png>)) (./src/Chapter2/Section3.tex [8]
+[9] [10]
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 6.72699pt on input line 47.
 
@@ -591,17 +593,17 @@ Overfull \hbox (51.47629pt too wide) in paragraph at lines 49--59
  []
 
 File: ./src/Chapter2/Figure/Injector.png Graphic file (type bmp)
-<./src/Chapter2/Figure/Injector.png>) (./src/Chapter2/Section4.tex)) [10]
-[11]
+<./src/Chapter2/Figure/Injector.png>) (./src/Chapter2/Section4.tex)) [11]
+[12]
 \openout2 = `src/Chapter3/Chapter3.aux'.
 
  (./src/Chapter3/Chapter3.tex
 第3章
 (./src/Chapter3/Section1/Section1.tex (./src/Chapter3/Section1/Purpose.tex
 
-LaTeX Warning: Reference `TestCondition' on page 12 undefined on input line 5.
+LaTeX Warning: Reference `TestCondition' on page 13 undefined on input line 5.
 
-) (./src/Chapter3/Section1/Result.tex [12
+) (./src/Chapter3/Section1/Result.tex [13
 
 
 
@@ -609,13 +611,13 @@ LaTeX Warning: Reference `TestCondition' on page 12 undefined on input line 5.
 (./src/Chapter3/Section1/Conclusion.tex)) (./src/Chapter3/Section2/Section2.tex
 (./src/Chapter3/Section2/Purpose.tex
 
-LaTeX Warning: Reference `TestCondition' on page 13 undefined on input line 9.
+LaTeX Warning: Reference `TestCondition' on page 14 undefined on input line 9.
 
-) (./src/Chapter3/Section2/Result.tex [13] [14]))) [15]
+) (./src/Chapter3/Section2/Result.tex [14] [15]))) [16]
 \openout2 = `src/biblist.aux'.
 
  (./src/biblist.tex)
-[16
+[17
 
 
 
@@ -629,12 +631,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2800 strings out of 493777
- 35214 string characters out of 6151334
- 99543 words of memory out of 5000000
- 6136 multiletter control sequences out of 15000+600000
+ 2803 strings out of 493777
+ 35257 string characters out of 6151334
+ 100568 words of memory out of 5000000
+ 6138 multiletter control sequences out of 15000+600000
  41414 words of font info for 143 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  27i,12n,26p,380b,467s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Main.dvi (21 pages, 51060 bytes).
+Output written on Main.dvi (22 pages, 52824 bytes).
