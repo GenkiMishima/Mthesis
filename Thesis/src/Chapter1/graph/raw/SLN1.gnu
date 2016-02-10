@@ -8,6 +8,7 @@ set y2label "Success Rate [%]"
 set xtics 
 set ytics  nomirror
 set y2tics 
+set y2range[50:100]
 plot "SLN1.dat" using 2:xtic(1) axes x1y1 with histogram title "Success",\
      "SLN1.dat" using 3         axes x1y1 with histogram title "Failure",\
      "SLN1.dat" using 4:xtic(1) axes x1y2 with linespoints title "Success Rate"
