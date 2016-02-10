@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.5.24)  10 FEB 2016 22:42
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.5.24)  11 FEB 2016 05:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -346,21 +346,7 @@ File: utxexa.fd 2000/12/15 v3.1
 LaTeX Warning: Unused global option(s):
     [oneide].
 
-(./Main.aux (./src/Chapter1/Chapter1.aux) (./src/Chapter2/Chapter2.aux
-
-LaTeX Warning: Label `fig:Injector' multiply defined.
-
-
-LaTeX Warning: Label `fig:Injector' multiply defined.
-
-
-LaTeX Warning: Label `tab:LOX' multiply defined.
-
-) (./src/Chapter3/Chapter3.aux
-
-LaTeX Warning: Label `tab:TestCondition' multiply defined.
-
-) (./src/biblist.aux))
+(./Main.aux (./src/Chapter1/Chapter1.aux))
 \openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 101.
@@ -379,7 +365,8 @@ LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 101.
 LaTeX Font Info:    ... okay on input line 101.
 LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 101.
 LaTeX Font Info:    ... okay on input line 101.
- (I search kanjifont definition file: . . )
+
+(I search kanjifont definition file: . . )
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 9.60999pt on input line 105.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
@@ -402,12 +389,7 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 23.90964pt on input line 105.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 23.63593pt on input line 105.
- (./Main.toc
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 2.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 2.
-)
+ (./Main.toc)
 \tf@toc=\write3
 \openout3 = `Main.toc'.
 
@@ -463,31 +445,55 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 1.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 13.67995pt on input line 1.
-LaTeX Font Info:    Try loading font information for OMS+txr on input line 14.
 
+
+LaTeX Warning: Citation `nano/micro' on page 1 undefined on input line 5.
+
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 14.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/omstxr.fd
 File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
 (Font)              Font shape `OMS/txsy/m/n' tried instead on input line 14.
- [1
 
 
-])
-(./src/Chapter1/Section2.tex) (./src/Chapter1/Section3.tex)
-File: ./src/Chapter1/graph/eps/SLN1.eps Graphic file (type eps)
+LaTeX Warning: Reference `fig:Success/Failure' on page 1 undefined on input lin
+e 28.
 
-<./src/Chapter1/graph/eps/SLN1.eps>
+
+LaTeX Warning: Citation `failure' on page 1 undefined on input line 28.
+
+
+LaTeX Warning: Reference `fig:DiffExplo' on page 1 undefined on input line 39.
+
+
+LaTeX Warning: Reference `fig:BLC' on page 1 undefined on input line 50.
+
+[1
+
+
+]) (./src/Chapter1/Section2.tex) (./src/Chapter1/Section3.tex)
+File: ./src/Chapter1/Figure/eps/SLN1.eps Graphic file (type eps)
+
+<./src/Chapter1/Figure/eps/SLN1.eps>
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 11.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 11.
-File: ./src/Chapter1/graph/eps/Pro.eps Graphic file (type eps)
- <./src/Chapter1/graph/eps/Pro.eps>)
-[2] [3]
+File: ./src/Chapter1/Figure/eps/Pro.eps Graphic file (type eps)
+ <./src/Chapter1/Figure/eps/Pro.eps>
+File: ./src/Chapter1/Figure/png/ZeroTNT.png Graphic file (type bmp)
+
+<./src/Chapter1/Figure/png/ZeroTNT.png>)
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 111.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 4.805pt on input line 111.
+ [2] [3] [4]
 \openout2 = `src/Chapter2/Chapter2.aux'.
 
- (./src/Chapter2/Chapter2.tex
+
+(./src/Chapter2/Chapter2.tex
 第2章
 (./src/Chapter2/Section1.tex (./src/Chapter2/S1LOX.tex
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
@@ -496,20 +502,40 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 11.53198pt on input line 1.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 11.39996pt on input line 1.
-)
-(./src/Chapter2/S1PMMA.tex
+
+
+LaTeX Warning: Reference `tab:LOX' on page 5 undefined on input line 2.
+
+) (./src/Chapter2/S1PMMA.tex
+
+LaTeX Warning: Reference `fig:PMMA' on page 5 undefined on input line 3.
+
+
+LaTeX Warning: Reference `tab:PMMA' on page 5 undefined on input line 4.
+
 File: ./src/Chapter2/Figure/PMMA.jpg Graphic file (type bmp)
- <./src/Chapter2/Figure/PMMA.jpg>)
-(./src/Chapter2/S1Reaction.tex)) (./src/Chapter2/Section2.tex
-(./src/Chapter2/S2PBOutLine.tex
+<./src/Chapter2/Figure/PMMA.jpg>) (./src/Chapter2/S1Reaction.tex))
+(./src/Chapter2/Section2.tex (./src/Chapter2/S2PBOutLine.tex
 
-LaTeX Warning: Reference `Baffle' on page 4 undefined on input line 8.
-
-[4
+LaTeX Warning: Reference `fig:PBOut' on page 5 undefined on input line 3.
 
 
+LaTeX Warning: Reference `fig:Injector' on page 5 undefined on input line 4.
 
-] [5]
+
+LaTeX Warning: Reference `Baffle' on page 5 undefined on input line 8.
+
+
+LaTeX Warning: Reference `fig:Chamber1' on page 5 undefined on input line 10.
+
+
+LaTeX Warning: Reference `fig:Chamber2' on page 5 undefined on input line 10.
+
+[5
+
+
+
+] [6]
 File: ./src/Chapter2/Figure/PBImage.png Graphic file (type bmp)
  <./src/Chapter2/Figure/PBImage.png>
 Overfull \hbox (56.91646pt too wide) in paragraph at lines 16--17
@@ -551,15 +577,22 @@ Overfull \hbox (14.5pt too wide) in paragraph at lines 42--59
  []
 
 ) (./src/Chapter2/S2PipeLine.tex
+
+LaTeX Warning: Reference `fig:LOXLine' on page 7 undefined on input line 3.
+
 File: ./src/Chapter2/Figure/LOXLine.png Graphic file (type bmp)
- <./src/Chapter2/Figure/LOXLine.png>
+<./src/Chapter2/Figure/LOXLine.png>
 Overfull \hbox (56.91646pt too wide) in paragraph at lines 33--34
  [][] 
  []
 
-[6]) (./src/Chapter2/S2Measurement.tex [7]
+[7]) (./src/Chapter2/S2Measurement.tex [8]
 
-LaTeX Warning: Reference `' on page 8 undefined on input line 18.
+LaTeX Warning: Reference `' on page 9 undefined on input line 18.
+
+
+LaTeX Warning: Reference `fig:NozzleThermo' on page 9 undefined on input line 1
+8.
 
 File: ./src/Chapter2/Figure/Injector.png Graphic file (type bmp)
 <./src/Chapter2/Figure/Injector.png>
@@ -579,12 +612,27 @@ Overfull \hbox (14.5pt too wide) in paragraph at lines 23--40
  []
 
 ) (./src/Chapter2/S2Controller.tex
-File: ./src/Chapter2/Figure/Nichrome.png Graphic file (type bmp)
- <./src/Chapter2/Figure/Nichrome.png>
-File: ./src/Chapter2/Figure/Ignition.png Graphic file (type bmp)
 
-<./src/Chapter2/Figure/Ignition.png>)) (./src/Chapter2/Section3.tex [8]
-[9] [10]
+LaTeX Warning: Reference `fig:Nichrome' on page 9 undefined on input line 7.
+
+
+LaTeX Warning: Reference `fig:Ignition' on page 9 undefined on input line 7.
+
+File: ./src/Chapter2/Figure/Nichrome.png Graphic file (type bmp)
+<./src/Chapter2/Figure/Nichrome.png>
+File: ./src/Chapter2/Figure/Ignition.png Graphic file (type bmp)
+ <./src/Chapter2/Figure/Ignition.png>))
+(./src/Chapter2/Section3.tex [9] [10]
+
+LaTeX Warning: Reference `eq:con' on page 11 undefined on input line 17.
+
+
+LaTeX Warning: Reference `eq:vel' on page 11 undefined on input line 17.
+
+[11]
+
+LaTeX Warning: Reference `tab:Water' on page 12 undefined on input line 34.
+
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 6.72699pt on input line 47.
 
@@ -593,17 +641,20 @@ Overfull \hbox (51.47629pt too wide) in paragraph at lines 49--59
  []
 
 File: ./src/Chapter2/Figure/Injector.png Graphic file (type bmp)
-<./src/Chapter2/Figure/Injector.png>) (./src/Chapter2/Section4.tex)) [11]
-[12]
+<./src/Chapter2/Figure/Injector.png>) (./src/Chapter2/Section4.tex
+
+LaTeX Warning: Reference `tab:LOX' on page 12 undefined on input line 3.
+
+)) [12] [13]
 \openout2 = `src/Chapter3/Chapter3.aux'.
 
  (./src/Chapter3/Chapter3.tex
 第3章
 (./src/Chapter3/Section1/Section1.tex (./src/Chapter3/Section1/Purpose.tex
 
-LaTeX Warning: Reference `TestCondition' on page 13 undefined on input line 5.
+LaTeX Warning: Reference `TestCondition' on page 14 undefined on input line 5.
 
-) (./src/Chapter3/Section1/Result.tex [13
+) (./src/Chapter3/Section1/Result.tex [14
 
 
 
@@ -611,13 +662,13 @@ LaTeX Warning: Reference `TestCondition' on page 13 undefined on input line 5.
 (./src/Chapter3/Section1/Conclusion.tex)) (./src/Chapter3/Section2/Section2.tex
 (./src/Chapter3/Section2/Purpose.tex
 
-LaTeX Warning: Reference `TestCondition' on page 14 undefined on input line 9.
+LaTeX Warning: Reference `TestCondition' on page 15 undefined on input line 9.
 
-) (./src/Chapter3/Section2/Result.tex [14] [15]))) [16]
+) (./src/Chapter3/Section2/Result.tex [15] [16]))) [17]
 \openout2 = `src/biblist.aux'.
 
  (./src/biblist.tex)
-[17
+[18
 
 
 
@@ -627,16 +678,16 @@ LaTeX Warning: Reference `TestCondition' on page 14 undefined on input line 9.
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 2803 strings out of 493777
- 35257 string characters out of 6151334
- 100568 words of memory out of 5000000
- 6138 multiletter control sequences out of 15000+600000
+ 2799 strings out of 493777
+ 35178 string characters out of 6151334
+ 98786 words of memory out of 5000000
+ 6137 multiletter control sequences out of 15000+600000
  41414 words of font info for 143 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 27i,12n,26p,380b,467s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,12n,26p,380b,467s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Main.dvi (22 pages, 52824 bytes).
+Output written on Main.dvi (23 pages, 43852 bytes).
