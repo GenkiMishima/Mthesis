@@ -3,6 +3,7 @@ set output "LOXBoil.eps"
 set xlabel "Pressure[MPaA]"
 set ylabel "Temperature[K]"
 set y2label "Heat[kJ/kg]"
+set xrange [0:3]
 set xtics 
 set ytics  nomirror
 set y2tics 
