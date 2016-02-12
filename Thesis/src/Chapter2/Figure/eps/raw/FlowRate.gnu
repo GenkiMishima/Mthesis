@@ -5,6 +5,8 @@ set ylabel "FlowRate[L/s]"
 set y2label "DifferentialPressure[MPa],FlowCoefficient"
 set xtics 
 set ytics  nomirror
+set yrange[0:0.06]
+set y2range[0:2]
 set y2tics 
 plot "FlowRate.dat" using 1:2 axes x1y1 with lines title "FlowRate",\
      "FlowRate.dat" using 1:3 axes x1y2 with lines title "DiffPressure",\
