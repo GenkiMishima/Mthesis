@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.5.24)  12 FEB 2016 06:30
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.5.24)  13 FEB 2016 01:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -507,84 +507,129 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 11.53198pt on input line 1.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 11.39996pt on input line 1.
-
-Runaway argument?
-5\@nil  2 & 15 & 50 & 30 &1413\\ \cline {1-2} 3 & 7.5 & & &2826\\ \hline \ETC.
-! Paragraph ended before \@cline was complete.
-<to be read again> 
-                   \par 
-l.24 
-     
-? 
-) (./src/Chapter2/S2PBOutLine.tex
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \subsection
-               {供試体}
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.1 \subsection
-               {供試体}
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.1 \subsection
-               {供試体}
-? 
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.1 \subsection
-               {供試体}
-? 
-! Missing { inserted.
-<inserted text> 
-                {
-l.1 \subsection
-               {供試体}
-? 
+)
+(./src/Chapter2/S2PBOutLine.tex
 
 LaTeX Warning: Reference `Baffle' on page 7 undefined on input line 8.
 
-) (./src/Chapter2/S2PipeLine.tex
+[7
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \subsection
-               {供給系}
-? 
-! Interruption.
-<to be read again> 
-                   \vskip 
-l.1 \subsection
-               {供給系}
-? 
-! Emergency stop.
-<to be read again> 
-                   \vskip 
-l.1 \subsection
-               {供給系}
-End of file on the terminal!
 
- 
+]) (./src/Chapter2/S2PipeLine.tex) (./src/Chapter2/S2Measurement.tex
+
+LaTeX Warning: Reference `' on page 8 undefined on input line 18.
+
+
+LaTeX Warning: Reference `fig:NozzleThermo' on page 8 undefined on input line 1
+8.
+
+) (./src/Chapter2/S2Controller.tex)) (./src/Chapter2/Section3.tex [8] [9])
+(./src/Chapter2/Section4.tex)
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 27.
+
+Overfull \hbox (51.47629pt too wide) in paragraph at lines 29--39
+ [] 
+ []
+
+File: ./src/Chapter2/Figure/eps/LOXBoil.eps Graphic file (type eps)
+<./src/Chapter2/Figure/eps/LOXBoil.eps>
+File: ./src/Chapter2/Figure/jpg/PMMA.jpg Graphic file (type bmp)
+ <./src/Chapter2/Figure/jpg/PMMA.jpg>
+File: ./src/Chapter2/Figure/png/Nichrome.png Graphic file (type bmp)
+
+<./src/Chapter2/Figure/png/Nichrome.png>
+File: ./src/Chapter2/Figure/png/Ignition.png Graphic file (type bmp)
+
+<./src/Chapter2/Figure/png/Ignition.png>
+File: ./src/Chapter2/Figure/png/PBImage.png Graphic file (type bmp)
+
+<./src/Chapter2/Figure/png/PBImage.png>
+Overfull \hbox (56.91646pt too wide) in paragraph at lines 93--94
+ [][] 
+ []
+
+File: ./src/Chapter2/Figure/png/Injector.png Graphic file (type bmp)
+<./src/Chapter2/Figure/png/Injector.png>
+Overfull \hbox (56.91646pt too wide) in paragraph at lines 100--101
+ [][] 
+ []
+
+File: ./src/Chapter2/Figure/png/BafflePlate.png Graphic file (type bmp)
+<./src/Chapter2/Figure/png/BafflePlate.png>
+Overfull \hbox (56.91646pt too wide) in paragraph at lines 106--107
+ [][] 
+ []
+
+File: ./src/Chapter2/Figure/jpg/Chamber1.jpg Graphic file (type bmp)
+<./src/Chapter2/Figure/jpg/Chamber1.jpg>
+Overfull \hbox (14.23184pt too wide) in paragraph at lines 136--137
+ [] 
+ []
+
+File: ./src/Chapter2/Figure/jpg/Chamber2.jpg Graphic file (type bmp)
+<./src/Chapter2/Figure/jpg/Chamber2.jpg>
+Overfull \hbox (14.23184pt too wide) in paragraph at lines 143--144
+ [] 
+ []
+
+
+Overfull \hbox (14.5pt too wide) in paragraph at lines 132--149
+[][] 
+ []
+
+File: ./src/Chapter2/Figure/png/LOXLine.png Graphic file (type bmp)
+<./src/Chapter2/Figure/png/LOXLine.png>
+Overfull \hbox (56.91646pt too wide) in paragraph at lines 153--154
+ [][] 
+ []
+
+File: ./src/Chapter2/Figure/png/Injector.png Graphic file (type bmp)
+<./src/Chapter2/Figure/png/Injector.png>) [10] [11] [12] [13] [14] [15]
+[16] [17] [18]
+\openout2 = `src/Chapter3/Chapter3.aux'.
+
+ (./src/Chapter3/Chapter3.tex
+第3章
+(./src/Chapter3/Section1/Section1.tex (./src/Chapter3/Section1/Purpose.tex
+
+LaTeX Warning: Reference `TestCondition' on page 19 undefined on input line 5.
+
+) (./src/Chapter3/Section1/Result.tex [19
+
+
+
+])
+(./src/Chapter3/Section1/Conclusion.tex)) (./src/Chapter3/Section2/Section2.tex
+(./src/Chapter3/Section2/Purpose.tex
+
+LaTeX Warning: Reference `TestCondition' on page 20 undefined on input line 9.
+
+) (./src/Chapter3/Section2/Result.tex [20] [21]))) [22]
+\openout2 = `src/biblist.aux'.
+
+ (./src/biblist.tex)
+[23
+
+
+
+] (./Main.aux (./src/Chapter1/Chapter1.aux) (./src/Chapter2/Chapter2.aux)
+(./src/Chapter3/Chapter3.aux) (./src/biblist.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2734 strings out of 493777
- 33639 string characters out of 6151334
- 89633 words of memory out of 5000000
- 6128 multiletter control sequences out of 15000+600000
- 38494 words of font info for 133 fonts, out of 8000000 for 9000
+ 2816 strings out of 493777
+ 35564 string characters out of 6151334
+ 105608 words of memory out of 5000000
+ 6150 multiletter control sequences out of 15000+600000
+ 41414 words of font info for 143 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 27i,8n,26p,365b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
-Output written on Main.dvi (11 pages, 25332 bytes).
+ 27i,12n,26p,365b,469s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on Main.dvi (28 pages, 61672 bytes).
