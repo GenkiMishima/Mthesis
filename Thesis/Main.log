@@ -1,10 +1,10 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.5.24)  13 FEB 2016 04:29
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.11.11)  13 FEB 2016 08:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Main.tex
 (./Main.tex
-pLaTeX2e <2006/11/10> (based on LaTeX2e <2015/01/01> patch level 0)
+pLaTeX2e <2006/11/10> (based on LaTeX2e <2015/10/01> patch level 2)
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (/usr/local/texlive/2015/texmf-dist/tex/platex/jsclasses/jsbook.cls
 Document Class: jsbook 2014/02/07 okumura
@@ -213,9 +213,15 @@ File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 Package graphics Info: Driver file: dvipdfmx.def on input line 94.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/dvipdfmx-def/dvipdfmx.def
-File: dvipdfmx.def 2015/03/26 v4.04 LaTeX color/graphics driver for dvipdfmx (T
+File: dvipdfmx.def 2015/11/04 v4.07 LaTeX color/graphics driver for dvipdfmx (T
 eX Live/ChoF)
-))
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)))
 \Gin@req@height=\dimen131
 \Gin@req@width=\dimen132
 )
@@ -260,7 +266,7 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfig@bottom=\skip51
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tools/enumerate.sty
-Package: enumerate 2014/10/28 v3.00 enumerate extensions (DPC)
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks21
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/cite/cite.sty
@@ -354,6 +360,9 @@ LaTeX Warning: Label `fig:LOXLine' multiply defined.
 
 LaTeX Warning: Label `fig:S1Case5' multiply defined.
 
+
+LaTeX Warning: Label `fig:S2Case1Grain' multiply defined.
+
 ) (./src/biblist.aux))
 \openout1 = `Main.aux'.
 
@@ -423,13 +432,13 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 
  [2
 
-] (./Main.lof)
+] (./Main.lof [3
+
+])
 \tf@lof=\write5
 \openout5 = `Main.lof'.
 
- [3
-
-] [4]
+ [4]
 \openout2 = `src/Chapter1/Chapter1.aux'.
 
  (./src/Chapter1/Chapter1.tex
@@ -470,24 +479,23 @@ LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
 
 LaTeX Warning: Reference `ReCool' on page 2 undefined on input line 90.
 
-) (./src/Chapter1/Section2.tex [2]) (./src/Chapter1/Section3.tex)
+) (./src/Chapter1/Section2.tex [2])
 File: ./src/Chapter1/Figure/eps/SLN1.eps Graphic file (type eps)
-
-<./src/Chapter1/Figure/eps/SLN1.eps>
+ <./src/Chapter1/Figure/eps/SLN1.eps>
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 11.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 11.
 File: ./src/Chapter1/Figure/eps/Pro.eps Graphic file (type eps)
- <./src/Chapter1/Figure/eps/Pro.eps>
+
+<./src/Chapter1/Figure/eps/Pro.eps>
 File: ./src/Chapter1/Figure/png/ZeroTNT.png Graphic file (type bmp)
-
-<./src/Chapter1/Figure/png/ZeroTNT.png>
+ <./src/Chapter1/Figure/png/ZeroTNT.png>
 File: ./src/Chapter1/Figure/png/BLC.png Graphic file (type bmp)
- <./src/Chapter1/Figure/png/BLC.png>
-File: ./src/Chapter1/Figure/png/RECOOL.png Graphic file (type bmp)
 
-<./src/Chapter1/Figure/png/RECOOL.png>
+<./src/Chapter1/Figure/png/BLC.png>
+File: ./src/Chapter1/Figure/png/RECOOL.png Graphic file (type bmp)
+ <./src/Chapter1/Figure/png/RECOOL.png>
 File: ./src/Chapter1/Figure/png/Baseline.png Graphic file (type bmp)
 
 <./src/Chapter1/Figure/png/Baseline.png>) [3] [4] [5] [6]
@@ -608,7 +616,18 @@ LaTeX Warning: Reference `S2Case1' on page 19 undefined on input line 3.
 
 LaTeX Warning: Reference `S2Case5' on page 19 undefined on input line 11.
 
-))
+)) (./src/Chapter3/Section3.tex
+
+LaTeX Warning: Reference `fig:RegressionRate' on page 19 undefined on input lin
+e 5.
+
+
+LaTeX Warning: Reference `AfGrain75mm' on page 19 undefined on input line 8.
+
+
+LaTeX Warning: Reference `AfGrain15mm' on page 19 undefined on input line 8.
+
+) [19]
 File: ./src/Chapter3/Figure/png/S1Result.png Graphic file (type bmp)
  <./src/Chapter3/Figure/png/S1Result.png>
 File: ./src/Chapter3/Figure/png/S1DifSBN.png Graphic file (type bmp)
@@ -621,32 +640,38 @@ File: ./src/Chapter3/Figure/png/S1Case5.png Graphic file (type bmp)
 
 <./src/Chapter3/Figure/png/S1Case5.png>
 
-LaTeX Warning: Float too large for page by 11.1362pt on input line 69.
+LaTeX Warning: Float too large for page by 11.1362pt on input line 70.
 
 File: ./src/Chapter3/Figure/png/S1AfBaffle.png Graphic file (type bmp)
 <./src/Chapter3/Figure/png/S1AfBaffle.png>
 File: ./src/Chapter3/Figure/png/InsideofChamber.png Graphic file (type bmp)
 
 <./src/Chapter3/Figure/png/InsideofChamber.png>
-File: ./src/Chapter3/Figure/png/S2Case5Grain.png Graphic file (type bmp)
-
-<./src/Chapter3/Figure/png/S2Case5Grain.png>
 File: ./src/Chapter3/Figure/png/S2Case1.png Graphic file (type bmp)
 
 <./src/Chapter3/Figure/png/S2Case1.png>
 File: ./src/Chapter3/Figure/png/S2Case5.png Graphic file (type bmp)
 
-<./src/Chapter3/Figure/png/S2Case5.png>) [19] [20] [21] [22] [23] [24] [25]
-[26]
+<./src/Chapter3/Figure/png/S2Case5.png>
+File: ./src/Chapter3/Figure/png/RegressionRate.png Graphic file (type bmp)
+
+<./src/Chapter3/Figure/png/RegressionRate.png>
+File: ./src/Chapter3/Figure/png/AfGrain75.png Graphic file (type bmp)
+
+<./src/Chapter3/Figure/png/AfGrain75.png>
+File: ./src/Chapter3/Figure/png/AfGrain15.png Graphic file (type bmp)
+
+<./src/Chapter3/Figure/png/AfGrain15.png>) [20] [21] [22] [23] [24] [25]
+[26] [27] [28]
 \openout2 = `src/biblist.aux'.
 
- (./src/biblist.tex) [27
+ (./src/biblist.tex) [29
 
 
 
-] (./Main.aux (./src/Chapter1/Chapter1.aux)
-(./src/Chapter2/Chapter2.aux) (./src/Chapter3/Chapter3.aux) (./src/biblist.aux)
-)
+] (./Main.aux
+(./src/Chapter1/Chapter1.aux) (./src/Chapter2/Chapter2.aux)
+(./src/Chapter3/Chapter3.aux) (./src/biblist.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -655,12 +680,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2850 strings out of 493777
- 36203 string characters out of 6151334
- 105717 words of memory out of 5000000
- 6172 multiletter control sequences out of 15000+600000
+ 3056 strings out of 493742
+ 40438 string characters out of 6151251
+ 107915 words of memory out of 5000000
+ 6407 multiletter control sequences out of 15000+600000
  41414 words of font info for 143 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  27i,12n,26p,365b,469s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Main.dvi (32 pages, 67300 bytes).
+Output written on Main.dvi (34 pages, 71196 bytes).
