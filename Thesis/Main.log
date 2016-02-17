@@ -1,10 +1,10 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.11.11)  14 FEB 2016 06:43
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.5.24)  17 FEB 2016 14:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Main.tex
 (./Main.tex
-pLaTeX2e <2006/11/10> (based on LaTeX2e <2015/10/01> patch level 2)
+pLaTeX2e <2006/11/10> (based on LaTeX2e <2015/01/01> patch level 0)
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (/usr/local/texlive/2015/texmf-dist/tex/platex/jsclasses/jsbook.cls
 Document Class: jsbook 2014/02/07 okumura
@@ -213,15 +213,9 @@ File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 Package graphics Info: Driver file: dvipdfmx.def on input line 94.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/dvipdfmx-def/dvipdfmx.def
-File: dvipdfmx.def 2015/11/04 v4.07 LaTeX color/graphics driver for dvipdfmx (T
+File: dvipdfmx.def 2015/03/26 v4.04 LaTeX color/graphics driver for dvipdfmx (T
 eX Live/ChoF)
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)))
+))
 \Gin@req@height=\dimen131
 \Gin@req@width=\dimen132
 )
@@ -266,7 +260,7 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfig@bottom=\skip51
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tools/enumerate.sty
-Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+Package: enumerate 2014/10/28 v3.00 enumerate extensions (DPC)
 \@enLab=\toks21
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/cite/cite.sty
@@ -356,14 +350,8 @@ LaTeX Warning: Unused global option(s):
 
 LaTeX Warning: Label `fig:LOXLine' multiply defined.
 
-) (./src/Chapter3/Chapter3.aux
-
-LaTeX Warning: Label `fig:S1Case5' multiply defined.
-
-
-LaTeX Warning: Label `fig:S2Case1Grain' multiply defined.
-
-) (./src/Chapter4/Chapter4.aux) (./src/biblist.aux))
+) (./src/Chapter3/Chapter3.aux) (./src/Chapter4/Chapter4.aux)
+(./src/biblist.aux) (./src/Appendix/appendix.aux))
 \openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 101.
@@ -531,6 +519,16 @@ LaTeX Warning: Reference `fig:NozzleThermo' on page 8 undefined on input line 1
 
 ) (./src/Chapter2/S2Controller.tex)) (./src/Chapter2/Section3.tex [8] [9])
 (./src/Chapter2/Section4.tex)
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 \begin
+          {table}[htb]
+? 
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 6.72699pt on input line 27.
 
@@ -612,6 +610,10 @@ LaTeX Warning: Reference `S1TestCondition' on page 17 undefined on input line 5
 (./src/Chapter3/Section2.tex (./src/Chapter3/S2Purpose.tex)
 (./src/Chapter3/S2Result.tex [18]
 
+LaTeX Warning: Reference `fig:S2Case5Grain' on page 19 undefined on input line 
+2.
+
+
 LaTeX Warning: Reference `S2Case1' on page 19 undefined on input line 3.
 
 
@@ -623,49 +625,45 @@ LaTeX Warning: Reference `S2Case5' on page 19 undefined on input line 11.
 LaTeX Warning: Reference `fig:RegressionRate' on page 19 undefined on input lin
 e 5.
 
+[19]
 
-LaTeX Warning: Reference `AfGrain75mm' on page 19 undefined on input line 8.
+LaTeX Warning: Reference `AfGrain75mm' on page 20 undefined on input line 13.
 
 
-LaTeX Warning: Reference `AfGrain15mm' on page 19 undefined on input line 8.
+LaTeX Warning: Reference `AfGrain15mm' on page 20 undefined on input line 13.
 
-) (./src/Chapter3/S3Conclusion.tex [19]))
+) (./src/Chapter3/S3Conclusion.tex [20]))
 File: ./src/Chapter3/Figure/png/S1Result.png Graphic file (type bmp)
 
 <./src/Chapter3/Figure/png/S1Result.png>
 File: ./src/Chapter3/Figure/png/S1DifSBN.png Graphic file (type bmp)
 
 <./src/Chapter3/Figure/png/S1DifSBN.png>
-File: ./src/Chapter3/Figure/png/S1Case1.png Graphic file (type bmp)
+File: ./src/Chapter3/Figure/eps/Ex1.eps Graphic file (type eps)
+ <./src/Chapter3/Figure/eps/Ex1.eps>
+File: ./src/Chapter3/Figure/eps/Ex2.eps Graphic file (type eps)
 
-<./src/Chapter3/Figure/png/S1Case1.png>
-File: ./src/Chapter3/Figure/png/S1Case5.png Graphic file (type bmp)
-
-<./src/Chapter3/Figure/png/S1Case5.png>
-
-LaTeX Warning: Float too large for page by 11.1362pt on input line 70.
-
+<./src/Chapter3/Figure/eps/Ex2.eps>
 File: ./src/Chapter3/Figure/png/S1AfBaffle.png Graphic file (type bmp)
-<./src/Chapter3/Figure/png/S1AfBaffle.png>
+ <./src/Chapter3/Figure/png/S1AfBaffle.png>
 File: ./src/Chapter3/Figure/png/InsideofChamber.png Graphic file (type bmp)
 
 <./src/Chapter3/Figure/png/InsideofChamber.png>
-File: ./src/Chapter3/Figure/png/S2Case1.png Graphic file (type bmp)
+File: ./src/Chapter3/Figure/eps/Ex21.eps Graphic file (type eps)
 
-<./src/Chapter3/Figure/png/S2Case1.png>
-File: ./src/Chapter3/Figure/png/S2Case5.png Graphic file (type bmp)
+<./src/Chapter3/Figure/eps/Ex21.eps>
+File: ./src/Chapter3/Figure/eps/Ex25.eps Graphic file (type eps)
+ <./src/Chapter3/Figure/eps/Ex25.eps>
+File: ./src/Chapter3/Figure/png/rdotfit.png Graphic file (type bmp)
 
-<./src/Chapter3/Figure/png/S2Case5.png>
-File: ./src/Chapter3/Figure/png/RegressionRate.png Graphic file (type bmp)
-
-<./src/Chapter3/Figure/png/RegressionRate.png>
+<./src/Chapter3/Figure/png/rdotfit.png>
 File: ./src/Chapter3/Figure/png/AfGrain75.png Graphic file (type bmp)
 
 <./src/Chapter3/Figure/png/AfGrain75.png>
 File: ./src/Chapter3/Figure/png/AfGrain15.png Graphic file (type bmp)
 
-<./src/Chapter3/Figure/png/AfGrain15.png>) [20] [21] [22] [23] [24] [25]
-[26] [27] [28] [29]
+<./src/Chapter3/Figure/png/AfGrain15.png>) [21] [22] [23] [24] [25] [26]
+[27] [28] [29]
 \openout2 = `src/Chapter4/Chapter4.aux'.
 
  (./src/Chapter4/Chapter4.tex
@@ -681,10 +679,94 @@ File: ./src/Chapter3/Figure/png/AfGrain15.png Graphic file (type bmp)
 
 
 
-] (./Main.aux
+]
+\openout2 = `src/Appendix/appendix.aux'.
+
+
+(./src/Appendix/appendix.tex
+! Undefined control sequence.
+l.1 \Chapter
+            {1}
+? 
+File: ./src/Appendix/Figure/History/MassFlow.eps Graphic file (type eps)
+<./src/Appendix/Figure/History/MassFlow.eps>
+Overfull \hbox (28.4637pt too wide) in paragraph at lines 21--22
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 20.18594pt on input line 23.
+
+File: ./src/Appendix/Figure/History/Pressure.eps Graphic file (type eps)
+<./src/Appendix/Figure/History/Pressure.eps>
+Overfull \hbox (28.4637pt too wide) in paragraph at lines 26--27
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 20.18594pt on input line 28.
+
+File: ./src/Appendix/Figure/History/Temperature.eps Graphic file (type eps)
+<./src/Appendix/Figure/History/Temperature.eps>
+Overfull \hbox (28.4637pt too wide) in paragraph at lines 31--32
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 20.18594pt on input line 33.
+
+File: ./src/Appendix/Figure/SpecGram/1-GHePres.eps Graphic file (type eps)
+<./src/Appendix/Figure/SpecGram/1-GHePres.eps>
+Overfull \hbox (28.4637pt too wide) in paragraph at lines 36--37
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 20.18594pt on input line 38.
+
+File: ./src/Appendix/Figure/SpecGram/2-InjPres.eps Graphic file (type eps)
+<./src/Appendix/Figure/SpecGram/2-InjPres.eps>
+Overfull \hbox (28.4637pt too wide) in paragraph at lines 41--42
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 20.18594pt on input line 43.
+
+File: ./src/Appendix/Figure/SpecGram/3-ComPres.eps Graphic file (type eps)
+<./src/Appendix/Figure/SpecGram/3-ComPres.eps>
+Overfull \hbox (28.4637pt too wide) in paragraph at lines 46--47
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 20.18594pt on input line 48.
+
+File: ./src/Appendix/Figure/SpecGram/4-MixPres.eps Graphic file (type eps)
+<./src/Appendix/Figure/SpecGram/4-MixPres.eps>
+Overfull \hbox (28.4637pt too wide) in paragraph at lines 51--52
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 20.18594pt on input line 53.
+
+File: ./src/Appendix/Figure/SpecGram/11-TbnFlow.eps Graphic file (type eps)
+<./src/Appendix/Figure/SpecGram/11-TbnFlow.eps>
+Overfull \hbox (28.4637pt too wide) in paragraph at lines 56--57
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 20.18594pt on input line 58.
+
+) [32
+
+
+] [33] [34] [35] [36] [37] [38] [39] [40] (./Main.aux
 (./src/Chapter1/Chapter1.aux) (./src/Chapter2/Chapter2.aux)
 (./src/Chapter3/Chapter3.aux) (./src/Chapter4/Chapter4.aux) (./src/biblist.aux)
-)
+(./src/Appendix/appendix.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -693,12 +775,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3078 strings out of 493742
- 40958 string characters out of 6151251
- 108246 words of memory out of 5000000
- 6409 multiletter control sequences out of 15000+600000
+ 2912 strings out of 493777
+ 37672 string characters out of 6151334
+ 106428 words of memory out of 5000000
+ 6194 multiletter control sequences out of 15000+600000
  41414 words of font info for 143 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 27i,12n,26p,365b,469s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,12n,26p,365b,469s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Main.dvi (36 pages, 73760 bytes).
+Output written on Main.dvi (45 pages, 85008 bytes).
