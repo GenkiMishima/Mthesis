@@ -22,6 +22,6 @@
 \contentsline {section}{\numberline {3.3}燃料後退速度とバッフルプレート}{20}
 \contentsline {subsection}{\numberline {3.3.1}燃料形状と後退速度}{20}
 \contentsline {subsection}{\numberline {3.3.2}燃料後退速度まとめ}{20}
-\contentsline {chapter}{\numberline {第4章}プリバーナ方式液体酸素気化実験}{30}
-\contentsline {section}{\numberline {4.1}実証機設計計算及び実現可能性検討}{30}
+\contentsline {chapter}{\numberline {第4章}実証機モデルによる実現可能性評価}{30}
+\contentsline {section}{\numberline {4.1}実証機モデル設計計算及び重量計算}{30}
 \contentsline {chapter}{参考文献}{31}
