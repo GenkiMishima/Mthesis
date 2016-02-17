@@ -22,10 +22,16 @@
 円周応力のみを計算すれば許容応力範囲内に収まる。
 円筒胴の計算式は以下のようになる。
 \begin{eqnarray}
-t = \frac{PD_i}{2\sigma_a \eta - 1.2P}
+t_w = \frac{PD_i}{2\sigma_a \eta - 1.2P}
+\end{eqnarray}
+また鏡板の計算式は以下のようになる。
+\begin{eqnarray}
+t_b = \frac{PD_i}{2\sigma_a \eta - 0.2P}
 \end{eqnarray}
 容器の材質はステンレス鋼(JIS G 3214 : SUS304)を使用し、引っ張り応力は$520[N/mm^2]$とした。
-実証機の設計諸元、寸法及び概略図を表と図に示す。
+計算結果\ref{tab:RealResult}より実証機モデルの気化器全重量は8.85[kg]となり、軽量な気化器が作成できることが確認できた。
+
+
 
 
 

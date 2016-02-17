@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.5.24)  17 FEB 2016 14:30
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.5.24)  17 FEB 2016 15:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -668,22 +668,22 @@ File: ./src/Chapter3/Figure/png/AfGrain15.png Graphic file (type bmp)
 
  (./src/Chapter4/Chapter4.tex
 第4章
-(./src/Chapter4/Section1.tex)) [30
+(./src/Chapter4/Section2.tex) (./src/Chapter4/Section1.tex [30
 
 
 
-]
+])) [31]
 \openout2 = `src/biblist.aux'.
 
- (./src/biblist.tex) [31
+
+(./src/biblist.tex) [32
 
 
 
 ]
 \openout2 = `src/Appendix/appendix.aux'.
 
-
-(./src/Appendix/appendix.tex
+ (./src/Appendix/appendix.tex
 ! Undefined control sequence.
 l.1 \Chapter
             {1}
@@ -760,10 +760,10 @@ Overfull \hbox (28.4637pt too wide) in paragraph at lines 56--57
 
 LaTeX Warning: Float too large for page by 20.18594pt on input line 58.
 
-) [32
+) [33
 
 
-] [33] [34] [35] [36] [37] [38] [39] [40] (./Main.aux
+] [34] [35] [36] [37] [38] [39] [40] [41] (./Main.aux
 (./src/Chapter1/Chapter1.aux) (./src/Chapter2/Chapter2.aux)
 (./src/Chapter3/Chapter3.aux) (./src/Chapter4/Chapter4.aux) (./src/biblist.aux)
 (./src/Appendix/appendix.aux))
@@ -775,12 +775,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2912 strings out of 493777
- 37672 string characters out of 6151334
- 106428 words of memory out of 5000000
- 6194 multiletter control sequences out of 15000+600000
+ 2916 strings out of 493777
+ 37757 string characters out of 6151334
+ 106450 words of memory out of 5000000
+ 6196 multiletter control sequences out of 15000+600000
  41414 words of font info for 143 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  28i,12n,26p,365b,469s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Main.dvi (45 pages, 85008 bytes).
+Output written on Main.dvi (46 pages, 88232 bytes).
