@@ -5,15 +5,26 @@
 
 \begin{table}[htb]
 \begin{center}
+\caption{インジェクションシステム}
+\begin{tabular}{|c|c|} \hline
+酸化剤質量流量範囲 $\dot{M}$ 			&$0~10[kg/s]$		\\ \hline
+全開閉時間 			&$2[s]$		\\ \hline
+重量 $m_o$		 &$~50[kg]$  \\ \hline
+\end{tabular}
+\label{tab:C4LOXbase}
+\end{center}
+\end{table}
+
+\begin{table}[htb]
+\begin{center}
 \caption{実証機設計諸元}
 \begin{tabular}{|c|c|} \hline
-酸化剤質量流量 $\dot{M}$ 			&$10[kg/s]$		\\ \hline
-燃焼圧力 P 			&$5[MPaA]$		\\ \hline
-許容応力 $\sigma$	&$520[N/mm^2]$	\\ \hline
+燃焼圧力 p 			&$5[mpaa]$		\\ \hline
+許容応力 $\sigma$	&$520[n/mm^2]$	\\ \hline
 燃料重量 $m_f$		 &$7.15[kg]$ 	 \\ \hline
 酸素重量 $m_o$		 &$365[kg]$  \\ \hline
 \end{tabular}
-\label{tab:RealModel}
+\label{tab:realmodel}
 \end{center}
 \end{table}
 
@@ -29,3 +40,29 @@
 \label{tab:RealResult}
 \end{center}
 \end{table}
+
+\begin{figure}
+\centering
+\includegraphics[width=11cm]{\FigAddFour/png/OFResult.png}
+\caption{O/F計算結果}
+\label{fig:C4OF}
+\end{figure}
+\begin{figure}
+\centering
+\includegraphics[width=11cm]{\FigAddFour/png/TempResult.png}
+\caption{温度計算結果}
+\label{fig:C4Temp}
+\end{figure}
+\begin{figure}
+\centering
+\includegraphics[width=11cm]{\FigAddFour/png/MassResult.png}
+\caption{質量分率計算結果}
+\label{fig:C4Mass}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=11cm]{\FigAddFour/png/LargeModel.png}
+\caption{実験結果5}
+\label{fig:LargeModel}
+\end{figure}
