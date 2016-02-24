@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.5.24)  17 FEB 2016 18:05
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.5.24)  17 FEB 2016 18:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -351,7 +351,8 @@ LaTeX Warning: Unused global option(s):
 LaTeX Warning: Label `fig:LOXLine' multiply defined.
 
 ) (./src/Chapter3/Chapter3.aux) (./src/Chapter4/Chapter4.aux)
-(./src/biblist.aux) (./src/Appendix/appendix.aux))
+(./src/Chapter5/Chapter5.aux) (./src/Thanks/Thanks.aux) (./src/biblist.aux)
+(./src/Appendix/appendix.aux))
 \openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 101.
@@ -370,8 +371,7 @@ LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 101.
 LaTeX Font Info:    ... okay on input line 101.
 LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 101.
 LaTeX Font Info:    ... okay on input line 101.
-
-(I search kanjifont definition file: . . )
+ (I search kanjifont definition file: . . )
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 9.60999pt on input line 105.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
@@ -670,7 +670,10 @@ File: ./src/Chapter3/Figure/png/AfGrain15.png Graphic file (type bmp)
 第4章
 (./src/Chapter4/Section2.tex
 
-LaTeX Warning: Reference `tab:RealModel' on page 30 undefined on input line 21.
+LaTeX Warning: Reference `C4Result' on page 30 undefined on input line 19.
+
+
+LaTeX Warning: Reference `tab:RealModel' on page 30 undefined on input line 24.
 
 
 ) (./src/Chapter4/Section1.tex [30
@@ -678,26 +681,47 @@ LaTeX Warning: Reference `tab:RealModel' on page 30 undefined on input line 21.
 
 
 ])
+File: ./src/Chapter4/Figure/png/OFResult.png Graphic file (type bmp)
+ <./src/Chapter4/Figure/png/OFResult.png>
+File: ./src/Chapter4/Figure/png/TempResult.png Graphic file (type bmp)
+
+<./src/Chapter4/Figure/png/TempResult.png>
+File: ./src/Chapter4/Figure/png/MassResult.png Graphic file (type bmp)
+
+<./src/Chapter4/Figure/png/MassResult.png>
 File: ./src/Chapter4/Figure/png/LargeModel.png Graphic file (type bmp)
 
-<./src/Chapter4/Figure/png/LargeModel.png>) [31] [32]
+<./src/Chapter4/Figure/png/LargeModel.png>) [31] [32] [33] [34]
+\openout2 = `src/Chapter5/Chapter5.aux'.
+
+
+(./src/Chapter5/Chapter5.tex
+第5章
+) [35
+
+
+
+]
+\openout2 = `src/Thanks/Thanks.aux'.
+
+ (./src/Thanks/Thanks.tex) [36
+
+
+
+]
 \openout2 = `src/biblist.aux'.
 
- (./src/biblist.tex)
-[33
+ (./src/biblist.tex) [37
 
 
 
 ]
 \openout2 = `src/Appendix/appendix.aux'.
 
- (./src/Appendix/appendix.tex
-! Undefined control sequence.
-l.1 \Chapter
-            {1}
-? 
+
+(./src/Appendix/appendix.tex
 File: ./src/Appendix/Figure/History/MassFlow.eps Graphic file (type eps)
-<./src/Appendix/Figure/History/MassFlow.eps>
+ <./src/Appendix/Figure/History/MassFlow.eps>
 Overfull \hbox (28.4637pt too wide) in paragraph at lines 21--22
  [][] 
  []
@@ -768,12 +792,14 @@ Overfull \hbox (28.4637pt too wide) in paragraph at lines 56--57
 
 LaTeX Warning: Float too large for page by 20.18594pt on input line 58.
 
-) [34
+) [38
 
 
-] [35] [36] [37] [38] [39] [40] [41] [42] (./Main.aux
+
+] [39] [40] [41] [42] [43] [44] [45] [46] (./Main.aux
 (./src/Chapter1/Chapter1.aux) (./src/Chapter2/Chapter2.aux)
-(./src/Chapter3/Chapter3.aux) (./src/Chapter4/Chapter4.aux) (./src/biblist.aux)
+(./src/Chapter3/Chapter3.aux) (./src/Chapter4/Chapter4.aux)
+(./src/Chapter5/Chapter5.aux) (./src/Thanks/Thanks.aux) (./src/biblist.aux)
 (./src/Appendix/appendix.aux))
 
 LaTeX Warning: There were undefined references.
@@ -783,12 +809,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2923 strings out of 493777
- 37925 string characters out of 6151334
- 106472 words of memory out of 5000000
- 6200 multiletter control sequences out of 15000+600000
+ 2951 strings out of 493777
+ 38497 string characters out of 6151334
+ 107169 words of memory out of 5000000
+ 6209 multiletter control sequences out of 15000+600000
  41414 words of font info for 143 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  28i,12n,26p,365b,469s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Main.dvi (47 pages, 91136 bytes).
+Output written on Main.dvi (51 pages, 96032 bytes).
